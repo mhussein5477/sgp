@@ -41,49 +41,84 @@
     <!-- Spinner End -->
 
 <!-- Top Bar Start -->
-<div class="bg-primary text-white py-2 px-4 d-flex justify-content-between align-items-center">
-    <div>
-        <i class="fa fa-map-marker-alt me-2"></i> Nairobi, Kenya
+<div class="bg-primary text-white py-2 px-4 d-flex justify-content-between align-items-center" style="    height: 65px;">
+    <div class="locationTopBar">
+        <i class="fa fa-map-marker-alt me-2"></i> Location:  Nairobi, Kenya
     </div>
     <div>
-     +2540707271717
-        <a href="#" class="text-white ms-3"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="text-white ms-3"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="text-white ms-3"><i class="fab fa-instagram"></i></a>
+        <i class="fa fa-phone" aria-hidden="true"></i>   0707271717 / 0713218975
+    </div>
+    <div>
+
+        <img src="img/facebook.png" alt="" style="width: 23px;  border-radius: 4px;">
+        <img src="img/x.png" alt="" style="width: 23px;  border-radius: 4px; margin-left: 5px;">
+        <img src="img/youtube.png" alt="" style="width: 23px;  border-radius: 4px; margin-left: 5px;">
+
+  
     </div>
 </div>
-<!-- Top Bar End -->
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <div style="display: flex;">
-            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                <img src="img/logo.png" alt="" style="width: 52%;">
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-     
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="" class="nav-item nav-link">About </a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product & Services</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="" class="dropdown-item">B.O.S.A</a>
-                        <a href="" class="dropdown-item">F.O.S.A</a> 
-                    </div>
-                </div>
-                <a href="" class="nav-item nav-link">Downloads</a>
-                <a href="" class="nav-item nav-link">NewsCenter</a>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="height: 112px;">
+    <div style="display: flex;">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.png" alt="" style="width: 52%;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
 
-                <a href="" class="nav-item nav-link">Contact </a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About</a>
+
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product & Services</a>
+                <div class="dropdown-menu fade-down m-0" style=" border: none; border-radius: 10px;">
+                    
+                    <!-- B.O.S.A Dropdown -->
+                    <div class="dropdown-submenu">
+                        <a  class="dropdown-item dropdown-toggle">B.O.S.A</a>
+                        <div class="submenues">
+                            <a href="#" class="dropdown-item">Development/Normal loans</a>
+                            <a href="#" class="dropdown-item">Short term loan    </a>
+                            <a href="#" class="dropdown-item">Own share </a> 
+                        </div>
+                    </div>
+
+                    <div class="dropdown-submenu">
+                        <a  class="dropdown-item dropdown-toggle">F.O.S.A</a>
+                        <div class="submenues">
+                            <a href="#" class="dropdown-item">Asset loans       </a>
+                            <a href="#" class="dropdown-item">Buy Land    </a>
+                            <a href="#" class="dropdown-item">Motor vehicle </a> 
+                            <a href="#" class="dropdown-item">Kilimo Loan </a> 
+                            <a href="#" class="dropdown-item">Mobile Loans</a> 
+
+
+
+                        </div>
+                    </div>
+ 
+                    <a href="#" class="dropdown-item">Savings</a>
+                    <a href="#" class="dropdown-item">Minor Saving Account</a>
+                </div>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">  <i class="fa fa-search" aria-hidden="true"></i> Search</a>
+
+            <a href="#" class="nav-item nav-link">Downloads</a>
+            <a href="#" class="nav-item nav-link">NewsCenter</a>
+            <a href="#" class="nav-item nav-link">Contact</a>
         </div>
-    </nav>
-    <!-- Navbar End -->
+
+        <a href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+            style="background-color: white !important; padding: 28px !important; color: rgb(55, 55, 55); border-left: 1px solid rgb(86, 86, 86) !important;">
+            <i class="fa fa-search" aria-hidden="true"></i> Search
+        </a>
+    </div>
+</nav>
+<!-- Navbar End -->
+ 
 
 
 <!-- Carousel Start -->
@@ -168,7 +203,7 @@
                         </div>
                         <div class="  p-4 pb-0">
                             <h3 class="mb-0">SGP Sacco Housing Cooperative</h3> 
-                            <p>SGP Housing Cooperative Society is a sister company of Nyati Sacco that offers affordable housing solutions to its members. The society has a wide range of… </p>
+                            <p>SGP Housing Cooperative Society is a sister company of SGP that offers affordable housing solutions to its members. The society has a wide range of… </p>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>  
                         </div> 
                     </div>
@@ -278,7 +313,7 @@
 </div>
 <!-- Service End -->
 
-<div class="container-xxl py-5 px-5" style="  margin-top: 50px !important; background-color: var(--primary);" >
+<div class="container-xxl py-5 px-5" style="  margin-top: 50px !important; background-color: var(--primary); background-image: url(img/bg3.png); background-repeat: no-repeat; background-position: bottom;" >
     <div class="container">
 
         <div class="row">

@@ -52,6 +52,23 @@
             $dropdown.off("mouseenter mouseleave");
         }
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let dropdowns = document.querySelectorAll(".dropdown-submenu > a");
+    
+        dropdowns.forEach(function (dropdown) {
+            dropdown.addEventListener("click", function (e) {
+                e.preventDefault();
+                let submenu = this.nextElementSibling;
+                if (submenu.style.display === "block") {
+                    submenu.style.display = "none";
+                } else {
+                    submenu.style.display = "block";
+                }
+            });
+        });
+    });
+    
     
     
     // Back to top button

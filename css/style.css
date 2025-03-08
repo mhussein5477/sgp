@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4ec169;
+    --primary: #30B66F;
     --light: #F0FBFC;
     --dark: #4ec169;
 }
@@ -72,6 +72,26 @@
     opacity: 1;
 }
 
+.submenues {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px 0;
+}
+/* Show submenus when hovering over B.O.S.A */
+.dropdown-submenu:hover .submenues {
+    display: block;
+}
+
+/* Ensure B.O.S.A has relative positioning */
+.dropdown-submenu {
+    position: relative;
+}
+
 
 /*** Button ***/
 .btn {
@@ -134,6 +154,7 @@
     color: #FFFFFF;
     font-size: 15px; 
     outline: none;
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -159,6 +180,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
+    font-size: 19px;
     font-weight: 500;
 }
 
@@ -192,8 +214,15 @@
 }
 
 
+
 /*** Header carousel ***/
 @media (max-width: 768px) {
+    .locationTopBar{
+        display: none;
+    }
+    .submenues{
+        left: 31%;
+    }
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 500px;
