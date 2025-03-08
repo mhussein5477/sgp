@@ -4,6 +4,10 @@
     --light: #F0FBFC;
     --dark: #4ec169;
 }
+ 
+h1, h2, h3{
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+}
 
 .fw-medium {
     font-weight: 600 !important;
