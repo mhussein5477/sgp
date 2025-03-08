@@ -224,6 +224,10 @@ h1, h2, h3{
     .locationTopBar{
         display: none;
     }
+    .productItem{
+        border-left: none;
+        border-top: 10px;
+    }
     .submenues{
         left: 31%;
     }
